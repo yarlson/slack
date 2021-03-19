@@ -13,6 +13,7 @@ type WebhookMessage struct {
 	ThreadTimestamp string       `json:"thread_ts,omitempty"`
 	Text            string       `json:"text,omitempty"`
 	ResponseType    string       `json:"response_type,omitempty"`
+	DeleteOriginal  bool         `json:"delete_original,omitempty"`
 	Attachments     []Attachment `json:"attachments,omitempty"`
 	Parse           string       `json:"parse,omitempty"`
 	Blocks          *Blocks      `json:"blocks,omitempty"`
