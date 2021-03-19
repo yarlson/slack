@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/slack-go/slack"
+	"github.com/yarlson/slack"
 )
 
 func generateModalRequest() slack.ModalViewRequest {

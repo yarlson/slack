@@ -30,7 +30,7 @@ See [CHANGELOG.md](https://github.com/slack-go/slack/blob/master/CHANGELOG.md) f
 import (
 	"fmt"
 
-	"github.com/slack-go/slack"
+	"github.com/yarlson/slack"
 )
 
 func main() {
@@ -55,7 +55,7 @@ func main() {
 import (
     "fmt"
 
-    "github.com/slack-go/slack"
+    "github.com/yarlson/slack"
 )
 
 func main() {
